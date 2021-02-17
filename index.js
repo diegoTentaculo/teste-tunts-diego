@@ -27,7 +27,6 @@ const editingDoc = async () => {
       let finalAverage = sheet.getCell(index, 7);
       let missedClasses = sheet.getCell(index, 2).value;
 
-
       let grade1 = sheet.getCell(index, 3).value;
       let grade2 = sheet.getCell(index, 4).value;
       let grade3 = sheet.getCell(index, 5).value;
